@@ -1,0 +1,154 @@
+
+
+.header {
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+  }
+  
+  .logo img {
+    width: 30%;
+  }
+  
+  .menu {
+    margin-bottom: 0;
+    margin-right: 50px;
+  }
+  
+  .nav__item a {
+    text-decoration: none;
+    color: var(--heading-color);
+    font-weight: 500;
+    font-size: 1.1rem;
+  }
+
+  .menu .nav__item:hover {
+    scale: 110%;
+  }
+  
+  .nav__item a.active__link {
+    color: var(--secondary-color);
+  }
+  
+  .mobile__menu {
+    font-size: 1.3rem;
+    color: var(--heading-color);
+    display: none;
+  }
+  
+  .btn {
+    text-decoration: none;
+    color: var(--heading-color);
+    font-weight: 500;
+    font-size: 1.1rem;
+  }
+
+  .loginBtn {
+    color: var(--secondary-color);
+    margin-left: 50px;
+  }
+  .btn:hover {
+    scale: 105%;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      top: -80px; /* Adjust based on header height */
+    }
+    to {
+      opacity: 1;
+      top: 0;
+    }
+  }
+  
+  .sticky__header {
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    background: #fff;
+    position: sticky;
+    top: 0;
+    left: 0;
+    box-shadow: 3px 3px 8px -3px #ddd;
+    z-index: 1;
+    transition: top 0.3s ease-in-out;
+    will-change: top;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  
+  .search-form {
+    display: flex;
+    position: relative;
+    align-items: center;
+    border-radius: 30px;
+    line-height: 10px;
+    padding: 10px;
+    margin: 0px;
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .search-input {
+    padding: 2px;
+    border: none;
+    font-size: 1em;
+    width: 100%;
+    background-color: transparent;
+    
+  }
+
+  .search-input:focus {
+    outline: none;
+  }
+  
+  .search-button {
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    padding: 10px 0px;
+    background-color: transparent;
+    margin-left: 2px;
+  }
+  
+  .search-button:hover {
+    scale: 110%;
+  }
+  
+  #iElement {
+    height: 50px;
+    font-size: 14px;
+    background-image: url(https://cdn2.hubspot.net/hubfs/4004166/bioticresearch_website_assets/images/search_icon.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-right: 40px;
+    background-color: transparent;
+    box-shadow: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.Voice-button {
+      background-color: transparent;
+      border: none;
+      padding: 10px 2px;
+      cursor: pointer;
+      margin-right: 2px;
+}
+
+.Voice-button:hover {
+  scale: 110%;
+}
+
+#micElement {
+    height: 20px;
+    font-size: 10px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-color: transparent;
+    box-shadow: none;
+    -webkit-appearance: none;
+    appearance: none;
+    color: black;
+}
