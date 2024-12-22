@@ -82,8 +82,24 @@ Added animation effect on header for smooth transition.
 
 Created a button and added an icon element using Unicode. Created a function `startVoiceSearch` that uses `SpeechRecognition` to transcribe voice input into text in the search input field. It handles voice search automatically and submits the transcribed text into the input field.
 
+# Created About Page 
+We created an About Page to provide information about the application and its purpose. The content includes a brief description of the app, its features, and the team behind it. We used a clean and modern design with a background color to enhance the visual appeal.
 
+The About Page contains the following sections:
 
+- **Introduction**: A brief overview of the application and its main functionalities.
+- **Features**: A list of key features that the application offers.
+- **Team**: Information about the team members who contributed to the project.
+
+### Styling
+
+To give the About Page an awesome look, we applied the following styles:
+
+- **Background Color**: We used a gradient background color to make the page visually appealing.
+- **Text Styling**: We applied custom fonts and colors to the text to improve readability and aesthetics.
+- **Layout**: We used a responsive layout to ensure the page looks great on all devices.
+
+By incorporating these styles, we ensured that the About Page not only provides valuable information but also offers an engaging user experience.
 
 
 # `npm run build` To Creating an optimized production build
