@@ -1,0 +1,80 @@
+.Main-Container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+}
+
+.aboutTitle {
+    margin-top: 50px;
+    font-size: 3.5em;
+    font-weight: 900;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    color: var(--primary-color);
+    text-align: center;
+}
+
+#us {
+    color: var(--heading-color);
+    text-align: center;
+}
+
+.Main-Container h2 {
+    font-weight: bolder;
+    font-size: 5em;
+    font-family: var(--subtitle-font-name);
+    text-decoration: underline;
+    color: var(--heading-color);
+}
+.right_h2 {
+    text-align: right;
+    text-shadow: #2d2c2c 1px 1px 1px;
+    margin-right: 20px;
+    font-weight: bolder;
+}
+
+.Main-Container p {
+    font-size: 1.5em;
+    color: var(--text-color);
+    margin: 0px 20px;
+}
+
+.Our-history {
+    background-image: url('../assets/images/Story.jpeg');
+}
+
+.Our-story {
+    background: linear-gradient(to right, rgba(226, 226, 222, 0.8), rgba(255, 255, 0, 0.6));
+}
+
+.Website-feature {
+    background: linear-gradient(to right, rgba(244, 244, 241, 0.8), rgba(255, 255, 0, 0.6));
+    width: 100%;
+    background-size: cover;
+}
+
+.Website-highlight {
+    background: linear-gradient(to right, rgba(235, 235, 231, 0.8), rgba(255, 255, 0, 0.6));
+    width: 100%;
+    background-size: cover;
+}
+
+.ecofriendly {
+    background: linear-gradient(to right, rgba(233, 233, 225, 0.8), rgba(255, 255, 0, 0.6));
+    background-size: cover;
+}
+
+.How-we-started {
+    background: linear-gradient(to right, rgba(239, 239, 235, 0.8), rgba(255, 255, 0, 0.6));
+    background-size: cover;
+}
+
+.How-AI {
+    background: linear-gradient(to right, rgba(232, 232, 228, 0.8), rgba(255, 255, 0, 0.6));
+    background-repeat: no-repeat;
+    background-size: cover;
+}
