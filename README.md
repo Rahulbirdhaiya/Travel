@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -106,3 +107,6 @@ By incorporating these styles, we ensured that the About Page not only provides 
 # `serve -s build` To create or run server
 # `npm run start` To start created server.
 
+=======
+# Travel
+>>>>>>> c7c47fad3a8a3ab6ca8beb3face29d33ad9b93ab
